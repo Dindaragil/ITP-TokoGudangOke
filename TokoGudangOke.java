@@ -1,7 +1,4 @@
-// scanner
 import java.util.Scanner;
-// text format
-import java.text.DecimalFormat;
 
 public class TokoGudangOke {
     public static void main(String[] args) {
@@ -32,11 +29,8 @@ public class TokoGudangOke {
         // c. Tampilkan Rincian Barang berupa Nama Barang, Jumlah Barang, Harga Beli, dan Harga Jual. Tampilkan Harga Beli dan Harga Jual dengan 2 angka dibelakang koma.
 
         //Ini untuk formatting dua angka di belakang koma
-        // DecimalFormat df = new DecimalFormat("#.##");
         System.out.println("Nama Barang: " + productName);
         System.out.println("Jumlah Barang: " + amount);
-        // System.out.println("Harga Beli: Rp " + buyPrice);
-        // System.out.println("Harga Jual: Rp " + sellPrice);
         System.out.printf("Harga Beli: Rp %.2f\n", buyPrice );
         System.out.printf("Harga Jual: Rp %.2f", sellPrice);
     }
