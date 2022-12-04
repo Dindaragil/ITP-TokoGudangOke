@@ -28,7 +28,6 @@ public class TokoGudangOke {
         
         // c. Tampilkan Rincian Barang berupa Nama Barang, Jumlah Barang, Harga Beli, dan Harga Jual. Tampilkan Harga Beli dan Harga Jual dengan 2 angka dibelakang koma.
 
-        //Ini untuk formatting dua angka di belakang koma
         System.out.println("Nama Barang: " + productName);
         System.out.println("Jumlah Barang: " + amount);
         System.out.printf("Harga Beli: Rp %.2f\n", buyPrice );
